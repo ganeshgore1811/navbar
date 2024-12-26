@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Food Website</title>
     <style>
 body{
     margin: 0;
@@ -53,17 +53,18 @@ color: white;
 padding: 10px;
 text-align: center;
 width: 100%;
-z-index: 100;
 position: sticky;
 top: 0;
 display: flex;
+margin-bottom: 30px;
 }
 .brand{
     display: flex;
     align-items: center;
 }
 .menu{
-    margin-left: 700px;
+    margin-left: 600px;
+    margin-top: 20px;
 }
 .menu-item{
     color: #fff;
@@ -75,7 +76,8 @@ display: flex;
     text-decoration: underline;
 }
 .search{
-    margin-left: 100px;
+    margin-left: 150px;
+    margin: 20px;
 }
 .search-box{
 padding: 5px 20px;
@@ -84,6 +86,10 @@ border: none;
 }
 .brand-logo{
     height: 50px;
+}
+.menu-icon{
+    height: 50px;
+    display: none;
 }
 /* mobile*/
 @media (max-width: 600px) {
@@ -109,7 +115,14 @@ font-size:16px;
 .search-box{
     display: none;
 }
-
+.menu{
+    display: none;
+}
+.menu-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: 15px;
+}
 }
 
 /*Tablet */
@@ -131,6 +144,9 @@ height: 410px;
 .search-box{
     display: none;
 }
+.menu{
+    margin-left: 200px;
+}
 }
 
 /* Laptop*/
@@ -141,6 +157,9 @@ height: 410px;
 .menu{
     margin-left: 400px;
 }
+.menu-icon{
+    display: none;
+}
 }
     </style>
 </head>
@@ -148,7 +167,7 @@ height: 410px;
     <div class="navbar">
     <div class="brand">
         <img src="salad.png" class="brand-logo"/>
-        <h2>Foods</h2>
+        <h2>Indian Foods</h2>
     </div>
     <div class="menu">
         <a href="#" class="menu-item">Home</a>
@@ -158,49 +177,49 @@ height: 410px;
     <div class="search">
         <input type="text" placeholder="Search" class="search-box"/>
     </div>
+    <img src="menu.png" class="menu-icon"/>
     </div>
-    <h1>Indian Birds</h1>
     <div class="container">
     <div class="product-card">
-    <img class="product-image" src="birds1.jpg" alt="birds"/>
-    <h1 class="product-title">Bee Eaters</h1>
-    <p class="product-description">The bee-eaters are a group of birds in the family Meropidae, containing three genera and thirty-one species. 
-    Most species are found in Africa and Asia, with a few in southern Europe, Australia.</p>
+    <img class="product-image" src="foods.jpg" alt="birds"/>
+    <h1 class="product-title">Palak paneer</h1>
+    <p class="product-description">Staple foods of Indian cuisine include pearl millet (bājra), rice, whole-wheat flour (aṭṭa), and a variety of lentils,
+         such as masoor (most often red lentils), tuer (pigeon peas), urad (black gram), and moong (mung beans)</p>
     <button class="product-btn">Know More</button>
     </div>
     <div class="product-card">
-    <img class="product-image" src="birds1.jpg" alt="birds"/>
-    <h1 class="product-title">Bee Eaters</h1>
-   <p class="product-description">The bee-eaters are a group of birds in the family Meropidae, containing three genera and thirty-one species. 
-    Most species are found in Africa and Asia, with a few in southern Europe, Australia.</p>
+    <img class="product-image" src="foods1.jpg" alt="birds"/>
+    <h1 class="product-title">Famous dish</h1>
+    <p class="product-description">Staple foods of Indian cuisine include pearl millet (bājra), rice, whole-wheat flour (aṭṭa), and a variety of lentils,
+        such as masoor (most often red lentils), tuer (pigeon peas), urad (black gram), and moong (mung beans)</p>
     <button class="product-btn">Know More</button>
     </div>
     <div class="product-card">
-    <img class="product-image" src="birds1.jpg" alt="birds"/>
-    <h1 class="product-title">Bee Eaters</h1>
-    <p class="product-description">The bee-eaters are a group of birds in the family Meropidae, containing three genera and thirty-one species. 
-    Most species are found in Africa and Asia, with a few in southern Europe, Australia.</p>
+    <img class="product-image" src="foods2.jpg" alt="birds"/>
+    <h1 class="product-title">Aloo gobi</h1>
+    <p class="product-description">Staple foods of Indian cuisine include pearl millet (bājra), rice, whole-wheat flour (aṭṭa), and a variety of lentils,
+        such as masoor (most often red lentils), tuer (pigeon peas), urad (black gram), and moong (mung beans)</p>
     <button class="product-btn">Know More</button>
     </div>
     <div class="product-card">
-    <img class="product-image" src="birds1.jpg" alt="birds"/>
-    <h1 class="product-title">Bee Eaters</h1>
-    <p class="product-description">The bee-eaters are a group of birds in the family Meropidae, containing three genera and thirty-one species. 
-    Most species are found in Africa and Asia, with a few in southern Europe, Australia.</p>
+    <img class="product-image" src="foods3.jpg" alt="birds"/>
+    <h1 class="product-title">Butter chicken</h1>
+    <p class="product-description">Staple foods of Indian cuisine include pearl millet (bājra), rice, whole-wheat flour (aṭṭa), and a variety of lentils,
+        such as masoor (most often red lentils), tuer (pigeon peas), urad (black gram), and moong (mung beans)</p>
     <button class="product-btn">Know More</button>
     </div>
     <div class="product-card">
-    <img class="product-image" src="birds1.jpg" alt="birds"/>
-    <h1 class="product-title">Bee Eaters</h1>
-    <p class="product-description">The bee-eaters are a group of birds in the family Meropidae, containing three genera and thirty-one species. 
-    Most species are found in Africa and Asia, with a few in southern Europe, Australia.</p>
+    <img class="product-image" src="foods4.jpg" alt="birds"/>
+    <h1 class="product-title">Chana masala</h1>
+    <p class="product-description">Staple foods of Indian cuisine include pearl millet (bājra), rice, whole-wheat flour (aṭṭa), and a variety of lentils,
+        such as masoor (most often red lentils), tuer (pigeon peas), urad (black gram), and moong (mung beans)</p>
     <button class="product-btn">Know More</button>
     </div>
     <div class="product-card">
-    <img class="product-image" src="birds1.jpg" alt="birds"/>
-    <h1 class="product-title">Bee Eaters</h1>
-    <p class="product-description">The bee-eaters are a group of birds in the family Meropidae, containing three genera and thirty-one species. 
-    Most species are found in Africa and Asia, with a few in southern Europe, Australia.</p>
+    <img class="product-image" src="foods5.jpg" alt="birds"/>
+    <h1 class="product-title">Palak paneer</h1>
+    <p class="product-description">Staple foods of Indian cuisine include pearl millet (bājra), rice, whole-wheat flour (aṭṭa), and a variety of lentils,
+        such as masoor (most often red lentils), tuer (pigeon peas), urad (black gram), and moong (mung beans)</p>
     <button class="product-btn">Know More</button>
     </div>     
     </div>
